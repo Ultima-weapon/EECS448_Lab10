@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+        <title>Create Post</title>
+		<link href="css\style.css" rel="stylesheet" type="text/css">
+    </head>
+	<body>
+		<center>
+			<div id="header" class="title-header">
+				<h1 id="title">Create Post</h1>
+			</div>
+			<form action="CreatePosts.php" method="post">
+				<div>
+					<label for="username">Your Username:</label>
+					<input type="text" name="username" minlength="1" required>
+				</div>
+				<div>
+					<label for="textpost">New Post:</label>
+					<textarea type="text" cols="50" rows="5" name="textpost" minlength="1" required></textarea>
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</form>
+		</center>
+	</body>
+</html>

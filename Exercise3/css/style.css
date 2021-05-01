@@ -1,0 +1,24 @@
+body {
+	background-color: #333333;
+}
+
+label {
+	display: block;
+	color: white;
+}
+
+input[type="submit"],
+	label {
+		margin-top: 1rem;
+	}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+div {
+	color: white;
+	display: block;
+	overflow: auto;
+}

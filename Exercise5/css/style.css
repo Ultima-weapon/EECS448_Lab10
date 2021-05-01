@@ -1,0 +1,27 @@
+body {
+	background-color: #333333;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+table {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: "Segoe UI";
+  font-size: 12px;
+}
+
+th, td {
+  padding: 3px;
+  color: white;
+  text-align: center;
+}

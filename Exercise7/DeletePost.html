@@ -1,0 +1,22 @@
+<html lang="en-us">
+	<head>
+        <title>Delete Posts</title>
+		<link href="css\style.css" rel="stylesheet" type="text/css">
+    </head>
+	<body>
+		<!-- Heading -->
+		<div id="header" class="title-header">
+			<h1 id="title">Delete Posts</h1>
+		</div>
+		<div align="center">
+			<form action="DeletePost.php" method="post">
+				<div>
+					<?php include 'php/PostList.php';?>
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

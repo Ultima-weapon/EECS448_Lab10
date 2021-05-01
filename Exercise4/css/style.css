@@ -1,0 +1,46 @@
+body {
+	background-color: #333333;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+div {
+	color: white;
+	display: block;
+	overflow: auto;
+}
+
+a:link {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+a:visited {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: darkgrey;
+}
+
+p {
+	background-color: #444444;
+	color: white;
+	font-family: "Courier New";
+	font-size: 14pt;
+	padding: 10px;
+	display: block;
+	overflow: auto;
+	border-radius: 15px;
+	border: 1px solid grey;
+	width: 400px;
+	text-align: left;
+}
